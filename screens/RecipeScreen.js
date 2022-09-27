@@ -11,7 +11,6 @@ import React, { useState, useEffect } from "react";
 import { Ionicons } from "@expo/vector-icons";
 import { getDetails } from "../firebase/firebase-config";
 import { RenderRecipeDetails } from "../components/RenderRecipeDetails";
-import { GlobalStyles } from "../constants/styles";
 
 export const RecipeScreen = ({ navigation, route }) => {
   const [details, setDetails] = useState([]);
